@@ -55,12 +55,12 @@ We have also created a Slack workplace for people around the globe to ask questi
 
 [Paper Collection for 3D Understanding](https://www.cs.princeton.edu/courses/archive/spring15/cos598A/cos598A.html#Estimating)
 
-[CreativeAI: Deep Learning for Graphics](http://geometry.cs.ucl.ac.uk/creativeai/)
+[CreativeAI: Deep Learning for Graphics](https://geometry.cs.ucl.ac.uk/workshops/creativeai/)
 
 <a name="datasets" />
 
 ## Datasets
-To see a survey of RGBD datasets, check out Michael Firman's [collection](http://www0.cs.ucl.ac.uk/staff/M.Firman//RGBDdatasets/) as well as the associated paper, [RGBD Datasets: Past, Present and Future](https://arxiv.org/pdf/1604.00999.pdf). Point Cloud Library also has a good dataset [catalogue](http://pointclouds.org/media/). 
+To see a survey of RGBD datasets, check out Michael Firman's [collection](http://www.michaelfirman.co.uk/RGBDdatasets/index.html) as well as the associated paper, [RGBD Datasets: Past, Present and Future](https://arxiv.org/pdf/1604.00999.pdf). Point Cloud Library also has a good dataset [catalogue](https://pointclouds.org/). 
 
 <a name="3d_models" />
 
@@ -120,8 +120,8 @@ This work introduce ScanObjectNN, a new real-world point cloud object dataset ba
 <br>[VOCASET](https://voca.is.tue.mpg.de/), is a 4D face dataset with about 29 minutes of 4D scans captured at 60 fps and synchronized audio. The dataset has 12 subjects and 480 sequences of about 3-4 seconds each with sentences chosen from an array of standard protocols that maximize  phonetic  diversity. 
 <p align="center"><img width="50%" src="https://github.com/TimoBolkart/voca/blob/master/gif/vocaset.gif" /></p>
 
-<b>3D-FUTURE: 3D FUrniture shape with TextURE (2020(</b> [[Link]](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future?spm=5176.14208320.0.0.66293cf7asRnrR)
-<br>[VOCASET](https://voca.is.tue.mpg.de/), contains 20,000+ clean and realistic synthetic scenes in 5,000+ diverse rooms, which include 10,000+ unique high quality 3D instances of furniture with high resolution informative textures developed by professional designers. 
+<b>3D-FUTURE: 3D FUrniture shape with TextURE (2020)</b> [[Link]](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future?spm=5176.14208320.0.0.66293cf7asRnrR)
+<br>[3D-FUTURE](https://tianchi.aliyun.com/specials/promotion/alibaba-3d-future) contains 20,000+ clean and realistic synthetic scenes in 5,000+ diverse rooms, which include 10,000+ unique high quality 3D instances of furniture with high resolution informative textures developed by professional designers. 
 <p align="center"><img width="50%" src="https://img.alicdn.com/tfs/TB1HTSfz4v1gK0jSZFFXXb0sXXa-1999-1037.png" /></p>
 
 
@@ -129,6 +129,11 @@ This work introduce ScanObjectNN, a new real-world point cloud object dataset ba
 <br>The [Fusion 360 Gallery Dataset](https://github.com/AutodeskAILab/Fusion360GalleryDataset) contains rich 2D and 3D geometry data derived from parametric CAD models. The Reconstruction Dataset provides sequential construction sequence information from a subset of simple 'sketch and extrude' designs. The Segmentation Dataset provides a segmentation of 3D models based on the CAD modeling operation, including B-Rep format, mesh, and point cloud.
 <p align="center"><img width="50%" src="https://raw.githubusercontent.com/AutodeskAILab/Fusion360GalleryDataset/master/docs/images/reconstruction_teaser.jpg" />
 <img width="50%" src="https://raw.githubusercontent.com/AutodeskAILab/Fusion360GalleryDataset/master/docs/images/segmentation_example.jpg" /></p>
+
+<b>Mechanical Components Benchmark (2020)</b>[[Link]](https://mechanical-components.herokuapp.com)[[Paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630171.pdf)
+<br>[MCB](https://mechanical-components.herokuapp.com) is a large-scale dataset of 3D objects of mechanical components. It has a total number of 58,696 mechanical components with 68 classes.
+<p align="center"><img width="50%" src="https://mechanical-components.herokuapp.com/static/img/main_figure.png" />
+</p>
 
 <b>Combinatorial 3D Shape Dataset (2020)</b> [[Link]](https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation)[[Paper]](https://arxiv.org/abs/2004.07414)
 <br>[Combinatorial 3D Shape Dataset](https://github.com/POSTECH-CVLab/Combinatorial-3D-Shape-Generation) is composed of 406 instances of 14 classes. Each object in our dataset is considered equivalent to a sequence of primitive placement. Compared to other 3D object datasets, our proposed dataset contains an assembling sequence of unit primitives. It implies that we can quickly obtain a sequential generation process that is a human assembling mechanism. Furthermore, we can sample valid random sequences from a given combinatorial shape after validating the sampled sequences. To sum up, the characteristics of our combinatorial 3D shape dataset are (i) combinatorial, (ii) sequential, (iii) decomposable, and (iv) manipulable.
@@ -206,6 +211,9 @@ This work introduce ScanObjectNN, a new real-world point cloud object dataset ba
 
 <b>3ThreeDWorld(TDW): A High-Fidelity, Multi-Modal Platform for Interactive Physical Simulation</b> [[Link]](http://www.threedworld.org/)
 <p align="center"><img width="50%" src="http://www.threedworld.org/img/gallery/gallery-1.jpg" /></p>
+
+<b>MINERVAS: Massive INterior EnviRonments VirtuAl Synthesis</b> [[Link]](https://coohom.github.io/MINERVAS/)
+<p align="center"><img width="50%" src="https://coohom.github.io/MINERVAS/static/img/teaser.png" /></p>
 
 <a name="pose_estimation" />
 
@@ -883,6 +891,13 @@ Shape My Face (SMF) is a point cloud to mesh auto-encoder for the registration o
 
 <p align="center"><img width="60%" src="imgs/ShapeMyFace.png" /></p>
 
+:game_die: <b>Learning Implicit Fields for Generative Shape Modeling (2019)</b> [[Paper]](https://arxiv.org/abs/1812.02822) [[Code]](https://github.com/timzhang642/3D-Machine-Learning)
+
+We advocate the use of implicit fields for learning generative models of shapes and introduce an implicit field decoder, called IM-NET, for shape generation, aimed at improving the visual quality of the generated shapes. An implicit field assigns a value to each point in 3D space, so that a shape can be extracted as an iso-surface. IM-NET is trained to perform this assignment by means of a binary classifier. Specifically, it takes a point coordinate, along with a feature vector encoding a shape, and outputs a value which indicates whether the point is outside the shape or not. By replacing conventional decoders by our implicit decoder for representation learning (via IM-AE) and shape generation (via IM-GAN), we demonstrate superior results for tasks such as generative shape modeling, interpolation, and single-view 3D reconstruction, particularly in terms of visual quality.
+
+<p align="center"><img width="60%" src="imgs/IM_NET.png" /></p>
+
+
 <a name="material_synthesis" />
 
 ## Texture/Material Analysis and Synthesis
@@ -976,6 +991,9 @@ using Style-Synchonized GANs (2018 SIGGRAPH Asia)</b> [[Paper]](http://geometry.
 
 <b>Automatic Unpaired Shape Deformation Transfer (SIGGRAPH Asia 2018)</b> [[Paper]](http://geometrylearning.com/ausdt/)
 <p align="center"><img width="50%" src="http://geometrylearning.com/ausdt/imgs/teaser.png" /></p>
+
+<b>3DSNet: Unsupervised Shape-to-Shape 3D Style Transfer (2020)</b> [[Paper]](https://arxiv.org/abs/2011.13388) [[Code]](https://github.com/ethz-asl/3dsnet)
+<p align="center"><img width="50%" src="https://github.com/ethz-asl/3dsnet/blob/main/docs/chairs.jpg" /></p>
 
 <a name="scene_synthesis" />
 
